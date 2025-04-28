@@ -29,6 +29,7 @@ public class Examen : MonoBehaviour
        if (cantDias > cantMinimaDias & cantUnidades > cantMinimaUnidades)
         {
             precioTotal = cantUnidades * cantMinimaDias * cantLitros * cantRecargas * precioLitro;
+            return;
         }
 
 
